@@ -28,7 +28,7 @@ def maisponto(*valores): #funcao(bola,lista das compradas[[cartela,lista,pontos]
             if x[2]>=2:
                 print (f'A Cartela = {x[0]} falta {4-x[2]}  ')
 
-def menosponto(*valores): #funcao(bola,lista das compradas[[cartela,lista,pontos]])
+def menosponto(*valores): #funcao(bola,lista das compradas[[cartela,lista,pontos]]) PRONTO.. 
     for x in valores[1]:
         if (verbola(x[1],valores[0])== True):
             x[2]-=1
